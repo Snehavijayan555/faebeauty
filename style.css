@@ -1,0 +1,509 @@
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-black;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(./assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Montserrat;
+}
+.wrapper{
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1920px;
+   padding-right: 0px;
+   padding-left: 0px;
+}
+.navbar{
+    background-color: hsl(0, 0%, 100%);
+    height: 137px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top: 2px solid #5c5c5c;
+    border-bottom: 2px solid #5c5c5c ;
+   
+    
+
+}
+.profile img,.search img,.cart img{
+    filter: invert(37%) sepia(8%) saturate(16%) hue-rotate(347deg) brightness(92%) contrast(88%);
+}
+
+.navbar-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 110px;
+
+}
+.logo{
+    text-align: center;
+    
+}
+.nav-links a{
+    font-family: Montserrat-ExtraBold;
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav-icons{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 25px;
+
+    
+}
+.navbar-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* .nav-icons div{
+    padding-right: 12px;
+    padding-top: 30px;
+    color: #5c5c5c;
+} */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+.banner-txt{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+.short-txt{
+    font-size: 22px;
+    margin-bottom: 5px;
+    
+}
+.long-txt{
+    font-size: 20px;
+    font-family: Montserrat-ExtraBold;
+    font-weight: 800;
+
+}
+.feature-txt{
+    font-family: Montserrat-black;
+    font-size: 29px;
+    font-weight: 900;
+
+}
+.shopnow-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: Montserrat-ExtraBold;
+    font-weight: 900;
+    text-align: center;
+}
+.shopnow-btn{
+    margin-top: 20px;
+    width: 211px;
+    height: 48px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.stocknow-btn{
+    width: 277px;
+    margin-top: 20px;
+    height: 48px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.stocknow-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: Montserrat-ExtraBold;
+    font-weight: 900;
+    text-align: center;
+}
+    .peta{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .peta-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .peta-content-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.peta-txt{
+    font-family: Poppins;
+    font-size: 21px;
+    margin-left: 20px;
+}
+.peta-icon{
+    padding-left: 45px;
+}
+.tagline-txt{
+    font-size: 19px;
+    font-family: Poppins;
+
+}
+.tagline{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tagline-img img{
+margin-left: 20px;
+margin-right: 20px;
+height: 64px;
+width: 65px;
+margin-right: 60px;
+}
+
+.fae-tag-img img{
+    width: 150px;
+    height: 48px;
+}
+.fae-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+.fae-tag-txt{
+    font-family: Poppins;
+    font-size: 21px;
+}
+.bundles{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+.bundles-txt{
+    font-size: 58px;
+    font-family: Montserrat-ExtraBold;
+    margin-bottom: 20px;
+
+}
+.bundles-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+
+}
+.bundles-btn{
+    width: 274px;
+    height: 54px;
+    background-color: white;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: inline; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.products-img{
+    width: 297px;
+    height: 301px;
+
+
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.products-txt{
+    font-size: 19px;
+    font-family: Poppins-Bold;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+
+
+}
+.products-content{
+    padding: 8px;
+   
+}
+.category-title{
+    text-align: center;
+    font-size: 45px;
+    font-family: Montserrat-Black;
+    margin-bottom: 36px;
+}
+
+.lips a,.eyes a,.skin a,.all a{
+    text-decoration: none;
+    font-size: 33px;
+    font-family: Montserrat-ExtraBold;
+    color: white;
+
+
+}
+.lips,.eyes,.skin,.all{
+    background-color: black;
+    width: 296px;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.category-links{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.category{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.look-img{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.look{
+    background-color: #e3e4e1;
+    text-align: center;
+    padding-bottom: 75px;
+    
+}
+.look-txt{
+    font-size: 21px;
+    font-family: Poppins;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.newsletter{
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    
+
+}
+.newsletter-input input{
+    width: 625px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 26px;
+}
+.newsletter-input input::placeholder{
+    font-size: 24px;
+    opacity: 0.5px;
+    font-family: Poppins;
+    color: #D1D3D4;
+    padding: 10px;
+
+}
+.newsletter-btn button{
+    background-color: black;
+    color: white;
+    width: 138px;
+    height: 45px;
+    font-size: 20px;
+    font-family: Poppins;
+    border: none;
+
+}
+.newsletter-txt{
+    margin-bottom: 60px;
+    font-family: Poppins;
+    font-size: 21px;
+}
+.footer{
+    text-align: center;
+    background-color:#e3e4e1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 21px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.footer-links{
+    margin-bottom: 15px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 110px;
+
+
+}
+.footer-insta-icon,.footer-fb-icon,.footer-yt-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
